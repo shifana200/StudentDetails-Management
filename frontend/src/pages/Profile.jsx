@@ -224,7 +224,7 @@ return (
 
     <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
       <img
-        src={`http://localhost:5000/uploads/${student.profilePic}`}
+        src={`${import.meta.env.VITE_API_URL}/uploads/${student.profilePic}`}
         alt="Profile"
         width="150"
         height="150"
